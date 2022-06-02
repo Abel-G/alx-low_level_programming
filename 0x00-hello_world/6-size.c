@@ -1,6 +1,5 @@
 #include <stdio.h>
-/*this program count the size of various data types*/
-int main(void)
+int main(void)//this is th main function
 {
 char c;
 int i;
