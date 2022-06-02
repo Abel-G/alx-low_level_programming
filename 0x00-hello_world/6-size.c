@@ -1,4 +1,5 @@
 #include <stdio.h>
+/*this program count the size of various data types*/
 int main(void)
 {
 char c;
