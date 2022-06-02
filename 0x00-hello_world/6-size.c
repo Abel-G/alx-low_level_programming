@@ -1,6 +1,10 @@
 #include <stdio.h>
-int main(void)/*this is th main function*/
+int main(void)
 {
+/**
+* main - Entry point
+* Return: Always 0 (Success)
+*/
 char c;
 int i;
 long int li;
