@@ -1,3 +1,3 @@
 #!/bin/bash
-gcc main.c -E > 0-main.c
+gcc main.c -E > c
 
