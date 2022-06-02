@@ -6,5 +6,6 @@
  */
 int main(viod)
 {
+  printf("Holberton School");
   return (0);
 }
