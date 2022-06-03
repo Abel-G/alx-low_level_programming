@@ -4,7 +4,7 @@
 /**
 * main - Entry point
 * Description: print if the number is positive, negative or zero.
-* Return : 0 
+* Return: 0
 */
 int main(void)
 {
