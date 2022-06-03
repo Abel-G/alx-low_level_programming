@@ -1,4 +1,7 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
 /**
 *Main - Entry Point
 *Return : Always 1 (failure)
