@@ -1,10 +1,11 @@
 #include <stdio.h>
+#include <unistd.h>
 /**
 *main - Entry Point
-*Return: Always 1 (failure)
+*Return: Always 1 (Error)
 */
 int main(void)
 {
-fwrite(stderr, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
+fwrite("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 1, 59, stderr);
 return (1);
 }
