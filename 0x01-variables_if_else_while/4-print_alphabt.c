@@ -1,22 +1,26 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
 /**
 * main - Entry point
-* Description: printing alphabets in lowercase
+* Description: printing small case letters except q and e
 * Return: Always 0 (success)
 */
-
 int main(void)
 {
-char c;
 int i;
-String s;
+char c;
 for (i = 97; i <= 122; i++)
 {
 c = (char)i;
+if (c == 'q' || c == 'e')
+{
+continue;
+}
+else
+{
 putchar(c);
 }
-for 
+}
+putchar('\n');
 return (0);
 }
