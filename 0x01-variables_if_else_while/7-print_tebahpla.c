@@ -14,5 +14,6 @@ for (i = 122; i >= 97; i--)
 c = (char)i;
 putchar(c);
 }
+putchar('\n');
 return (0);
 }
