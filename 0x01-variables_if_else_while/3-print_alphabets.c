@@ -16,7 +16,7 @@ c = (char)i;
 putchar(c);
 }
 for (j = 65; j <= 90; j++)
-{ 
+{
 a = (char)j;
 putchar(a);
 }
