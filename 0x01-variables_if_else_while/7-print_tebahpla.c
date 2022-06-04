@@ -12,7 +12,7 @@ char c;
 for (i = 122; i >= 97; i--)
 {
 c = (char)i;
-putchar(i);
+putchar(c);
 }
 return (0);
 }
