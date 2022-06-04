@@ -10,16 +10,16 @@ int main(void)
 {
 char c, a;
 int i, j;
-for (i = 97; i <= 122; i++)  
-{   
-c = (char)i; 
+for (i = 97; i <= 122; i++)
+{
+c = (char)i;
 putchar(c);
 }
-putchar('\n');
-for (j = 97; j <= 122; j++)  
-{   
-a = (char)j;     
+for (j = 65; j <= 90; j++)
+{ 
+a = (char)j;
 putchar(a);
-} 
+}
+putchar('\n');
 return (0);
-} 
+}
