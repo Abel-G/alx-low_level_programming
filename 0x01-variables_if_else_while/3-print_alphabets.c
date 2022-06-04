@@ -15,11 +15,10 @@ for (i = 97; i <= 122; i++)
 c = (char)i; 
 putchar(c);
 }
-putchar('\n'); 
-}
+putchar('\n');
 char a;
 int j; 
-for (i = 97; i <= 122; i++)  
+for (j = 97; j <= 122; j++)  
 {   
 a = (char)j;     
 putchar(a);
