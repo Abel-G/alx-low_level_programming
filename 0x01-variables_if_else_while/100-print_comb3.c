@@ -12,7 +12,8 @@ for (i = 0; i <= 9; i++)
 {
 for (j = 0; j <= 9; j++)
 {
-putchar(i j + '0');
+putchar(i + '0');
+putchar(j + '0');
 if (i == 9)
 {
 continue;
