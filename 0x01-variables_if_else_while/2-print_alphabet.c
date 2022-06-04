@@ -9,8 +9,11 @@
 
 int main(void)
 {
-for (int i =97; i <= 122; i++)
-char c = (char)i;
+char c;
+int i;
+for (i = 97; i <= 122; i++)
+{
+c = (char)i;
 putchar(c);
 }
 return (0);
