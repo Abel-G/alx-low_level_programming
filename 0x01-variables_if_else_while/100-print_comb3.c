@@ -12,6 +12,10 @@ for (i = 0; i < 9; i++)
 {
 for (j = 1; j <= 9; j++)
 {
+if ( j >= i)
+{
+continue;
+}
 putchar(i + '0');
 putchar(j + '0');
 if (i == 9)
