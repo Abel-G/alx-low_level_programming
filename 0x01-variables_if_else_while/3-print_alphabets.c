@@ -8,16 +8,14 @@
 */
 int main(void)
 {
-char c;
-int i;
+char c, a;
+int i, j;
 for (i = 97; i <= 122; i++)  
 {   
 c = (char)i; 
 putchar(c);
 }
 putchar('\n');
-char a;
-int j; 
 for (j = 97; j <= 122; j++)  
 {   
 a = (char)j;     
