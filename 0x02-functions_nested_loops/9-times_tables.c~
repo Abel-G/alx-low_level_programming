@@ -1,6 +1,0 @@
-#include "main.h"
-/**
-* times_table - Entry point
-* Description: print the 9 times table
-* Return: void
-*/
