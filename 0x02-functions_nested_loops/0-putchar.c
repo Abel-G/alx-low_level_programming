@@ -5,5 +5,5 @@
 */
 int _putchar(char c)
 {
-return (write("\_putchar\n"));
+return (write(1 &c, 1));
 }
