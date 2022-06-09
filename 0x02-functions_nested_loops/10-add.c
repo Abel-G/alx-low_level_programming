@@ -4,7 +4,7 @@
 * Description: add two integers
 * @a: integer passed
 * @b: integer passed
-* Retunr:sum
+* Return: sum
 */
 int add(int a, int b)
 {
