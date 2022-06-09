@@ -1,10 +1,12 @@
 #include "main.h"
 /**
-* add - Entry point
-* Description: add two numbers
-* Retunr: integer
+* add - adds to ints
+* Description: add two integers
+* @a: integer passed
+* @b: integer passed
+* Retunr:sum
 */
 int add(int a, int b)
 {
-  return (a + b);
+return (a + b);
 }
