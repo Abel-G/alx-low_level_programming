@@ -3,7 +3,7 @@
 * print_sign - Entry point
 * Description: check number's sign
 * @n: is the integer it recieves
-* Return: 1 if greater than n is greater than 1, 0 if equals to 0 and -1 if below zero
+* Return: 1 if n > 0 , 0 if n = 0 & -1 if below zero
 */
 int print_sign(int n)
 {
