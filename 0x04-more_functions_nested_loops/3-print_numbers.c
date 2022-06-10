@@ -1,16 +1,16 @@
 #include "main.h"
 /**
 * print_numbers - Entry point
-* Description: print numbers 
+*
 * Return: void
 */
 void print_numbers(void)
 {
-char i = 0;
-while (i <= 9)
+char a = 0;
+while (a <= 9)
 {
-_putchar(i + '0');
-i++;
+_putchar(a + '0');
+a++;
 }
 _putchar('\n');
 }
