@@ -19,7 +19,7 @@ if (x > 99)
 {
 _putchar(',');
 _putchar(32);
-_putchar(x /100) + '0');
+_putchar((x / 100) + '0');
 _putchar(((x / 10) % 10) +'0');
 _putchar((x % 10) + '0');
 }
