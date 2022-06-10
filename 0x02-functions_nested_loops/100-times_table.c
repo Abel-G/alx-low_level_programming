@@ -1,46 +1,46 @@
 #include "main.h"
 /**
 * print_times_table -  Entry point
-* n: integer recieved
+* @n: integer recieved
 * Description: printsthe n times table
 * Return: void
 */
 void print_times_table(int n)
 {
-int x, y, z;
+int i, j, k;
 if (n >= 0 && n <= 14)
 {
-for (x = 0; x <= n; x++)
+for (i = 0; i <= n; i++)
 {
-for (y = 0; y <= n; y++)
+for (j = 0; j <= n; j++)
 {
-z = x * y;
-if (z > 99)
+k = i * j;
+if (k > 99)
 {
 _putchar(',');
 _putchar(32);
-_putchar((z / 100) + '0');
-_putchar(((z / 10) % 10) + '0');
-_putchar((z % 10) + '0');
+_putchar((k / 100) + '0');
+_putchar(((k / 10) % 10) + '0');
+_putchar((k % 10) + '0');
 }
-else if (z > 9)
+else if (k > 9)
 {
 _putchar(',');
 _putchar(32);
 _putchar(32);
-_putchar(((z / 10) % 10) + '0');
-_putchar((z % 10) + '0');
+_putchar(((k / 10) % 10) + '0');
+_putchar((k % 10) + '0');
 }
 else
 {
-if (y != 0)
+if (j != 0)
 {
 _putchar(',');
 _putchar(32);
 _putchar(32);
 _putchar(32);
 }
-_putchar(z + '0');
+_putchar(k + '0');
 }
 }
 _putchar('\n');
