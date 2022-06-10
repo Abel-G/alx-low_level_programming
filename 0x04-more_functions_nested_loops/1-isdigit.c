@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* isdigit - Entry point
+* _isdigit - Entry point
 * @c: integer received
 * Description: check digits
 * Return: 1 if c is digit 0 otherwise
