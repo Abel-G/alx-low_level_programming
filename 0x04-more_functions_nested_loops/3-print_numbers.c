@@ -1,6 +1,7 @@
 #include "main.h"
 /**
-* print_numbers - print int 0 -9
+* print_numbers - Entry point
+* Description: print numbers 
 * Return: void
 */
 void print_numbers(void)
