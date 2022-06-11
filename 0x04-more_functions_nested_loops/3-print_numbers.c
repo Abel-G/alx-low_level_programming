@@ -3,12 +3,13 @@
 * print_numbers - print 0 - 9
 * Return: void
 */
-void print_number(void)
+void print_numbers(void)
 {
-char i;
-for (i = 0; i <= 9; i++)
+char i = 0;
+while (i <= 9)
 {
 _putchar(i + '0');
+i++;
 }
 _putchar('\n');
 }
