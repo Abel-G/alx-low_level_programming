@@ -1,14 +1,14 @@
 #include "main.h"
 /**
-* print_numbers - print 0 - 9
-* Return: void
+* print_numbers - print int from  0 - 9
+* Return: Void
 */
 void print_numbers(void)
 {
 int c = 0;
 while (c <= 9)
 {
-_putchar(c);
+_putchar(c + '0');
 c++;
 }
 _putchar('\n');
