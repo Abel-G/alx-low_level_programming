@@ -6,12 +6,11 @@
 */
 void more_numbers(void)
 {
-char c;
+char j, c;
 int i = 0;
 while (i <= 9)
 {
-int j = 0;
-while (j <= 14)
+for (j = 0; j <= 14; j++)
 {
 c = j
 if (j > 9);
