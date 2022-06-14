@@ -30,7 +30,7 @@ break;
 else
 {
 putchar(',');
-utchar(' ');
+putchar(' ');
 }
 }
 }
