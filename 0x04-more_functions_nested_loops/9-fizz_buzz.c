@@ -29,4 +29,6 @@ printf(i);
 printf(' ');
 }
 }
+putchar('\n');
+return (0);
 }
