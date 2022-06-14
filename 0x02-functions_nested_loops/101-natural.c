@@ -7,9 +7,12 @@
 int main(void)
 {
 int x = 0, i;
-while ((i % 3 == 0 || i % 5 == 0 ) && i < 1024)
+while (i < 1024)
+{
+if ((i % 3 == 0) || (i % 5 == 0))
 {
 x += i;
+}
 i++;
 }
 printf("%d\n", x);
