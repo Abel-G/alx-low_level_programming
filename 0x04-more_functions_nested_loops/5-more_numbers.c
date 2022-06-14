@@ -17,7 +17,7 @@ if (x > 9)
 _putchar('1');
 y = x % 10;
 }
-_putchar('0' + c);
+_putchar('0' + y);
 }
 _putchar('\n');
 i++;
