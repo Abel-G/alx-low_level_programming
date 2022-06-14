@@ -13,4 +13,5 @@ x += i;
 i++;
 }
 printf("%d\n", x);
+return (0);
 }
