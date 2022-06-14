@@ -2,6 +2,7 @@
 /**
 * print_trinagle -  print triangle
 * @n: integer input
+* Description: print triangle
 * Return: void
 */
 void print_triangle(int n)
