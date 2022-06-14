@@ -21,7 +21,7 @@ printf(", %ld", z);
 else
 {
 z += y;
-y = z -y;
+y = z - y;
 printf(", %ld", z);
 }
 ++x;
