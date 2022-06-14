@@ -27,6 +27,6 @@ i++;
 }
 if (i == 1)
 {
-_puthcar('\n');
+_putchar('\n');
 }
 }
