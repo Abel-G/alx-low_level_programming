@@ -16,6 +16,7 @@ while (j < n - 1)
 _putchar(' ');
 j++;
 }
+j = 0;
 while (j < i)
 {
 _putchar('#');
