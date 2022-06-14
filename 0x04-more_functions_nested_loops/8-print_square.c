@@ -1,18 +1,20 @@
 #include "main.h"
 /**
 * print_square - prints square
-* @size: integer input
+* @n: integer input
 * Return: void
 */
-void print_square(int size)
+void print_square(int n)
 {
 int i = 0
 int j;
-while (i < size && size > 0)
+while (i < n && n > 0)
 {
-for (j = 0; j < size; j++)
+j = 0;
+while (j < n)
 {
 _putchar('#');
+j++;
 }
 _putchar('\n');
 i++;
