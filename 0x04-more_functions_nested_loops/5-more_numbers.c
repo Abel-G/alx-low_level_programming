@@ -11,7 +11,7 @@ while (i < 10)
 {
 for (x = 0; x <= 14; x++)
 {
-x = y;
+y = x;
 if (x > 9)
 {
 _putchar('1');
