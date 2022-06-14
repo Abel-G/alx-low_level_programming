@@ -6,7 +6,7 @@
 */
 void print_square(int n)
 {
-int i = 0
+int i = 0;
 int j;
 while (i < n && n > 0)
 {
