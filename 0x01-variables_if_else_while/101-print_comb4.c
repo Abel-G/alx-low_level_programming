@@ -17,7 +17,7 @@ if (x < y && y < z)
 putchar(x);
 putchar(y);
 putchar(z);
-if (c != '7')
+if (x != '7')
 {
 putchar(',');
 putchar(' ');
