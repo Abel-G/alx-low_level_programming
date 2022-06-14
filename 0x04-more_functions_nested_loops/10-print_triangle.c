@@ -12,7 +12,7 @@ int j;
 while (i <= n && n > 0)
 {
 j = 0;
-while (j < n - 1)
+while (j < n - i)
 {
 _putchar(' ');
 j++;
