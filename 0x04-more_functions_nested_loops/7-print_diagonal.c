@@ -10,18 +10,17 @@ int j;
 int i = 0;
 while (i <= n && n > 0)
 {
-for (j = 0; j < n; j++)
-{
-if (i == j)
-{
-_putchar('\\');
-}
-else
+j = 0;
+while (j < i)
 {
 _putchar(' ');
+j++;
 }
-}
+_putchar('\\');
 _putchar('\n');
-  i++;
+i++;
 }
+if(i == 0)
+_putchar('\n');
+i++;
 }
