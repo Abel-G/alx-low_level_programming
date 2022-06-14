@@ -14,7 +14,7 @@ if (x == 0)
 {
 printf("%ld", y);
 }
-else if (i == 1)
+else if (x == 1)
 {
 printf(", %ld", z);
 }
@@ -22,7 +22,7 @@ else
 {
 z += y;
 y = z -y;
-printf(", %ld", z)
+printf(", %ld", z);
 }
 ++x;
 }
