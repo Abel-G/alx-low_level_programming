@@ -20,4 +20,4 @@ i += z;
 }
 printf("%i\n", i);
 return (0);
-} 
+}
