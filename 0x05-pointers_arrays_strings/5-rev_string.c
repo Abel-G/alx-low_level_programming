@@ -9,10 +9,8 @@ void rev_string(char *s)
 int x, y, z;
 char c;
 for (x = 0; s[x] != '\0'; x++)
-{
 y = 0;
 z = x / 2;
-}
 while (z--)
 {
 c = s[x - y - 1];
@@ -21,4 +19,3 @@ s[y] = c;
 y++;
 }
 }
-      
