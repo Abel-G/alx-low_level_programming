@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* *_strcat - concatenates @src to @dest
+* *_strncat - concatenates @src to @dest
 * @src: the string to be merged
 * @dest: the string to be get appendednt
 * @n: number of bytes
