@@ -5,7 +5,7 @@
 * @dest: the string to be get appendednt
 * Return: merged string
 */
-char *_strcat(char *dest, char *src) 
+char *_strcat(char *dest, char *src)
 {
 int x = 0, y = 0;
 while (dest[x++])
