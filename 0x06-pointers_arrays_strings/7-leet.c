@@ -6,14 +6,15 @@
 */
 char *leet(char *str)
 {
-int x = 0, y = 0, z = 5;
-char a[5] = {'a', 'e', 'o', 't', 'l'};
+int x = 0, y, z = 5;
+char a[5] = {'A', 'E', 'O', 'T', 'L'};
 char b[5] = {'4', '3', '0', '7', '1'};
 while (str[x])
 {
+y = 0;
 while (y < z)
 {
-if (str[x] == a[y] || str[x] + 32 == a[y])
+if (str[x] == a[y] || str[x] - 32 == a[y])
 str[x] = b[y];
 y++;
 }
