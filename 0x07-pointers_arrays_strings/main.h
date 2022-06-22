@@ -1,4 +1,3 @@
-#include <stddef.h>
 int _putchar(char c);
 char *_memset(void *s, int c, size_t n);
 char *_memcpy(void *dest, const void *src, size_t n);
