@@ -13,7 +13,6 @@ while (*s)
 for (x = 0; accept[x]; x++)
 {
 if (*s == accept[x])
-{
 return (s);
 }
 s++;
