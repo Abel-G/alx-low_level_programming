@@ -2,7 +2,7 @@
 /**
 * _strpbrk - search for a byte in a string
 * @s: the input string
-* @accpet: byte to be searched
+* @accept: byte to be searched
 * Return: byte
 */
 char *_strpbrk(char *s, char *accept)
