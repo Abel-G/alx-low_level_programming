@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 /**
 * _strstr - find a substring
 * @haystack: string to be searched
