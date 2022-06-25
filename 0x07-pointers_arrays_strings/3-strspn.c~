@@ -1,0 +1,8 @@
+#include "main.h"
+/**
+* _strspn - get length of a prefix substring
+* @s: char pointer
+* @accept: another pointer to character
+* Return: s
+*/
+unsigned int _strspn(char *s, char *
