@@ -5,7 +5,7 @@
 * @accpet: byte to be searched
 * Return: byte
 */
-char *_strpbrk(char *s, char *accpet)
+char *_strpbrk(char *s, char *accept)
 {
 int x;
 while (*s)
