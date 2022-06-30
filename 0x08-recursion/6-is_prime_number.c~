@@ -1,0 +1,14 @@
+#include "main.h"
+int check_prime(int, int)
+/**
+* is_prime_number - identify prime numbers
+* @n: the input number
+* Return: 0 or
+*/
+int is_prime_number(int n)
+{
+return (check_prime(n, 1));
+}
+/**
+ * check_prime - check divisability
+ * 
