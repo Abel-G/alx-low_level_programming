@@ -22,6 +22,6 @@ return (0);
 if (x % y == 0 && y > 1)
 return (0);
 if ((x / y) < y)
-print(1);
+return (1);
 return (prime_num(x, y + 1));
 }
