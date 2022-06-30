@@ -18,7 +18,7 @@ if (argc == 1)
 printf("0\n");
 for (x = 0; x < argc; x++)
 {
-for (y = 1; argv[x][y] != 0; y++)
+for (y = 0; argv[x][y] != 0; y++)
 {
 if (argv[x][y] > '9' || argv[x][y] < '0')
 {
