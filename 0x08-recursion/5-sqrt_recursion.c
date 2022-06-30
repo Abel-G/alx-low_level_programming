@@ -7,7 +7,7 @@ int _sqrt_recursion( int n);
 * @root: root to be tested
 * Retrun: the square root or -1
 */
-int find _sqrt(int num, int root)
+int find_sqrt(int num, int root)
 {
 if ((root * root) == num)
 return (root);
