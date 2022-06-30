@@ -4,7 +4,7 @@
 * main - program that multiplies two num
 * @argc: number of arguments
 * @argv: array name
-* return: int
+* Return: int
 */
 int main(int argc, char *argv[])
 {
@@ -18,7 +18,7 @@ else
 {
 y = 1;
 for (x = 1; x < 3; x++)
-y *=atoi(argv[x]);
+y *= atoi(argv[x]);
 printf("%d\n", y);
 }
 return (0);
