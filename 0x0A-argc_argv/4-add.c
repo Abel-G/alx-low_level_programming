@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
 {
 if (argc == 1)
 printf("0\n");
-int x, y, l, s = 0, z;
+int x, y, l = 0, s = 0, z;
 for (x = 0; x < argc; x++)
 {
 for (y = 0; argv[x][y] != 0; y++)
