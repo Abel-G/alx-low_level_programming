@@ -5,7 +5,7 @@ int _sqrt_recursion(int n);
 * find_sqrt - find square root of a number
 * @x: input nuber
 * @y: root to be tested
-* Retrun: the square root or -1
+* Return: the square root or -1
 */
 int find_sqrt(int x, int y)
 {
