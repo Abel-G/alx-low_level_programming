@@ -14,6 +14,7 @@ printf("%d\n", argc - 1);
 else
 {
 for (x = 0; *argv; x++, argv++)
+;
 printf("%d\n", x - 1);
 }
 return (0);
