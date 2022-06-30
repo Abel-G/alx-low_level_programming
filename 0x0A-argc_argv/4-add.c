@@ -16,7 +16,7 @@ int l;
 int s = 0;
 if (argc == 1)
 printf("0\n");
-for (x = 0; x < argc; x++)
+for (x = 1; x < argc; x++)
 {
 for (y = 0; argv[x][y] != 0; y++)
 {
