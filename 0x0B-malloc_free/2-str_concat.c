@@ -16,7 +16,7 @@ if (s2 == NULL)
 s2 = "";
 for (i = 0; s1[i] || s2[i]; i++)
 l++;
-c = malloc(sizeof(char) *l);
+c = malloc(sizeof(char) * l);
 if (c == NULL)
 return (NULL);
 for (i = 0; s1[i]; i++)
