@@ -13,7 +13,7 @@ if (str == NULL)
 return (NULL);
 while (str[x])
 x++;
-c = (char *)malloc(x * sizeof(char) + 1);
+c = (char *)malloc(x *sizeof(char) + 1);
 if (c == NULL)
 return (NULL);
 while (y < x)
@@ -23,4 +23,4 @@ y++;
 }
 c[y] = '\0';
 return (c);
-}  
+}
