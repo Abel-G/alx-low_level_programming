@@ -18,7 +18,7 @@ free(a);
 return (NULL);
 for (x = 0; x < height; x++)
 {
-a[x] = malloc(width * sizeof(int))
+a[x] = malloc(width * sizeof(int));
 if (a[x] == NULL)
 {
 for (y = x; y > 0; y--)
