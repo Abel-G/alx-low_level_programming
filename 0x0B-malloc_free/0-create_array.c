@@ -12,7 +12,7 @@ char *arr;
 unsigned int i;
 if  (size == 0)
 return (NULL);
-arr = malloc(sizeoof(char) * size);
+arr = malloc(sizeof(char) * size);
 if (arr == NULL)
 return (NULL);
 for (i = 0; i < size; i++)
