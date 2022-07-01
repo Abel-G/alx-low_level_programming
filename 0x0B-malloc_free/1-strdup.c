@@ -16,7 +16,7 @@ x++;
 c = (char *)malloc(x * sizeof(char) + 1);
 if (c == NULL)
 return (NULL);
-while (y < i)
+while (y < x)
 {
 c[y] = str[y];
 y++;
