@@ -1,9 +1,9 @@
 #include "main.h"
 /**
-* print_triangle - check digit
+* print_trinagle - check digit
 * @n: integer input
 * Description: print triangle
-* Return:void
+s* Return:void
 */
 void print_triangle(int n)
 {
