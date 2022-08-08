@@ -7,7 +7,7 @@
 * @n: maximum size of s2
 * Return: null or a pointer to concatinated result
 */
-char *strin_nconcat(char *s1, char *s2, unsigned int n)
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 char *con;
 unsigned int l n;
