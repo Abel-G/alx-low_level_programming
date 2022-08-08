@@ -23,9 +23,9 @@ if (con == NULL)
 return (NULL);
 l = 0;
 for (i = 0; s1[i]; i++)
-con[l] = s1[i];
+con[l++] = s1[i];
 for (i = 0; s2[i] && i < n; i++)
-con[l] = s2[i];
+con[l++] = s2[i];
 con[l] = '\0';
 return (con);
 }
