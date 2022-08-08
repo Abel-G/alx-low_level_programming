@@ -33,9 +33,9 @@ if (m == NULL)
 free(ptr);
 return (NULL);
 }
-f = m;
+c = m;
 for (i = 0; i < old_size && i < new_size; i++)
-f[i] = *p++;
+c[i] = *p++;
 free(ptr);
 return (m);
 }
