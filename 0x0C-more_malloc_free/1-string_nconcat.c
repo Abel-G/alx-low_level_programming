@@ -18,7 +18,7 @@ if (s2 == NULL)
 s2 = "";
 for (i = 0; s1[i]; i++)
 l++;
-con = malloc(sizeof(char) * (l + 1));
+con = malloc(sizeof(char) * (l +1));
 if (con == NULL)
 return (NULL);
 l = 0;
