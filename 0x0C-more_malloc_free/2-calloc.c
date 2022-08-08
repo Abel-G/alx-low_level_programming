@@ -10,14 +10,14 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 {
 void *mm;
 char *f;
-unsigned int index;
+unsigned int i;
 if (nmemb == 0 || size == 0)
 return (NULL);
 m = malloc(size * nmemb);
 if (mm == NULL)
 return (NULL);
 f = mm;
-for (index = 0; index < (size * nmemb); index++)
-filler[index] = '\0';
+for (i = 0; i < (size * nmemb); i++)
+f[i] = '\0';
 return (mm);
 }
