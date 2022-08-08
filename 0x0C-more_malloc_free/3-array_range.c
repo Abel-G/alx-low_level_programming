@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
-* arrat_range - create array of int ordered from min to max
+* array_range - create array of int ordered from min to max
 * @min: first value
 * @max: last value
 * Return: NULL or pointer to the array
@@ -18,7 +18,7 @@ while (min <= max)
 {
 a[i] = min;
 i++;
-min++; 
+min++;
 }
 return (a);
 }
