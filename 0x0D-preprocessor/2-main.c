@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
 * main - print file name
-* Return  void
+* Return: void
 */
 int main(void)
 {
