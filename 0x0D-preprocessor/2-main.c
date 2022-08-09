@@ -2,9 +2,10 @@
 #include <stdlib.h>
 /**
 * main - print file name
-* Return: void
+* Return: always 0
 */
 int main(void)
 {
-printf("File: %s\n", __FILE__);
+printf("%s\n", __FILE__);
+return (0);
 }
