@@ -16,11 +16,11 @@ va_start(strings, n);
 for (i = 0; i < n; i++)
 {
 str = va_arg(strings, char *);
-if(str == NULL);
+if (str == NULL)
 printf("nill");
 else
 printf("%s", str);
-if(index !=(n -1) && separator != NULL)
+if (i != (n - 1) && separator != NULL)
 printf("%s", separator);
 }
 printf("\n");
