@@ -1,7 +1,7 @@
 #ifndef DOG_H
 #define DOG_H
 /**
-* File: dog.h 
+* File: dog.h
 * Desc: header file
 */
 /**
