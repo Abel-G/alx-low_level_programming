@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdagr.h>
 /**
-* print_string - print string
+* print_strings - print string
 * @separator: string to be printed between numbers
 * @n: number of string to be passed
 * @...: size of strings to printed
