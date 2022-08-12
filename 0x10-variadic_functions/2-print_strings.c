@@ -6,6 +6,7 @@
 * @separator: string to be printed between numbers
 * @n: number of string to be passed
 * @...: size of strings to printed
+* Description: if separator is NUL will not be printed
 */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
