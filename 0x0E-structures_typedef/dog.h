@@ -1,5 +1,5 @@
 #ifndef DOG_H
-#DEFINE DOG_H
+#define DOG_H
 /**
 * File: dog.h
 * Description: header file
