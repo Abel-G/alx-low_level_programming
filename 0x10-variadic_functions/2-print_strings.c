@@ -7,7 +7,7 @@
 * @n: number of string to be passed
 * @...: size of strings to printed
 */
-void print_string(const char *separator, const unsigned int n, ...)
+void print_strings(const char *separator, const unsigned int n, ...)
 {
 va_list strings;
 char *str;
