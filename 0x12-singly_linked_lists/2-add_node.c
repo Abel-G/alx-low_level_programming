@@ -16,7 +16,7 @@ if (new == NULL)
 return (NULL);
 dup_str = strdup(str);
 if (dup_str == NULL)
-{     
+{
 free(new);
 return (NULL);
 }
