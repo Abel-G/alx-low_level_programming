@@ -1,7 +1,7 @@
 #ifndef LISTS_H
 #define LISTS_H
 /**
-* Description: header file containinf prototypes and definitions for all functions
+* Description: header file contain prototype & definitions for all functions
 */
 #include <stdlib.h>
 /**
