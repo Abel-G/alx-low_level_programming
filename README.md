@@ -1,1 +1,1 @@
-this repo contains C projects
+this is doubly linked list in c project
