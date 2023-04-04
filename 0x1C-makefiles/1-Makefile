@@ -1,4 +1,4 @@
 CC = gcc
-SRC = $(wildcard files/*.c)
+SRC = $(shell ls files/*.c)
 all: main.c school.c
 	$(CC) $(SRC) -o school
