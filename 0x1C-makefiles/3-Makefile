@@ -1,9 +1,10 @@
 CC = gcc
 SRC = main.c school.c
 OBJ = $(SRC:.c=.o)
-Name = school
+NAME = school
 RM = rm -f
 TF = $(SRC:.c=.c~)
+
 all: $(OBJ)
 	$(CC) $(OBJ) -O $(NAME)
 
