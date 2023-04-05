@@ -1,0 +1,10 @@
+CC = gcc
+SRC = main.c school.c
+OBJ = $(wildcard files/*.o)
+NAME = school
+
+all: $(obj)
+	$(CC) $(OBJ) -o $(NAME)
+
+$(NAME): $(SRC)
+	$(CC) -c $(SRC) -o $(NAME)
